@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+}
+
+/* Skeleton styles*/
+.skeleton-blog {
+  margin-bottom: 2em;
+  animation: scale 4s infinite;
+}
+.skeleton-avatar {
+  background: #e5e4e2;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+.skeleton-author {
+  background: #e5e4e2;
+  height: 30px;
+  width: 150px;
+  margin-left: 1rem;
+  border-radius: 6px;
+}
+.skeleton-image {
+  height: 200px;
+  width: 320px;
+  border-radius: 6px;
+  background: #e5e4e2;
+  margin-top: 10px;
+}
+.skeleton-footer {
+  height: 30px;
+  width: 280px;
+  border-radius: 6px;
+  background: #e5e4e2;
+  margin-top: 10px;
+}
